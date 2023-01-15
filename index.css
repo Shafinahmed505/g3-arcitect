@@ -149,24 +149,29 @@
        padding-left: 21px;
        margin-bottom: 20px;
    }
-   #ten-year{
-    font-size: 45px;
+
+   #ten-year {
+       font-size: 45px;
    }
-   #xp{
-    font-size: 20px;
+
+   #xp {
+       font-size: 20px;
    }
-   .xp-btn{
-    background-color: #FF900E;
-    border: none;
-    color: white;
-    padding: 42px;
-    border-radius: 10px;
+
+   .xp-btn {
+       background-color: #FF900E;
+       border: none;
+       color: white;
+       padding: 42px;
+       border-radius: 10px;
    }
-   .tenxp-btn{
-    text-align: center;
-    position: relative;
-    bottom: 110px;
+
+   .tenxp-btn {
+       text-align: center;
+       position: relative;
+       bottom: 110px;
    }
+
    /* somefacts */
    #some {
        font-size: 40px;
@@ -199,47 +204,169 @@
        border: 1px solid #FF900E;
        border-radius: 8px;
        transition: 5ms, 1s ease-in-out;
-       
+
    }
-   .icons h2{
-    font-size: 45px;
-    font-weight: 600;
+
+   .icons h2 {
+       font-size: 45px;
+       font-weight: 600;
    }
-   .icons:hover{
-    transform: rotate(360deg);
+
+   .icons:hover {
+       transform: rotate(360deg);
    }
-/* sponsors */
-   .sponsor-head{
-    text-align: center;
+
+   /* sponsors */
+   .sponsor-head {
+       text-align: center;
    }
-   .our{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
+
+   .our {
+       font-size: 40px;
+       font-weight: 700;
+       margin-bottom: 24px;
    }
-   .our-para{
-    font-size: 16px;
-    font-weight: 400;
+
+   .our-para {
+       font-size: 16px;
+       font-weight: 400;
    }
-   .logos{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    margin-top: 50px;
+
+   .logos {
+       display: flex;
+       justify-content: center;
+       gap: 150px;
+       margin-top: 50px;
    }
+
    /* footer */
-   .footer{
-    margin-top: 130px;
-    background-color: #FFF4E7;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 240px;
-    margin-right: 240px; 
+   .footer {
+       margin-top: 130px;
+       background-color: #FFF4E7;
+       margin-bottom: 100px;
+       border-radius: 10px;
+       text-align: center;
+       margin-left: 240px;
+       margin-right: 240px;
    }
-   .footer p{
-    font-size: 18px;
-    font-weight: 100;
-    color: #424242;
-    padding: 45px 100px;
+
+   .footer p {
+       font-size: 18px;
+       font-weight: 100;
+       color: #424242;
+       padding: 45px 100px;
+   }
+
+   /*-media queries -*/
+   @media screen and (max-width: 576px) {
+       .header {
+           flex-direction: column;
+           padding: 10px 20px;
+           align-items: flex-start;
+           padding-left: 40px;
+
+       }
+
+       #header-right ul {
+           flex-direction: column;
+           padding-left: 0px;
+       }
+
+       #header-right {
+           margin-top: 20px;
+       }
+
+       .banner-div img {
+           margin: 0;
+           margin-top: 45px;
+           padding-left: 45px;
+           width: 80%;
+       }
+
+       .brand-container {
+           align-items: center;
+           padding: 0px;
+           padding-left: 25px;
+           justify-items: left;
+       }
+
+       #brand {
+           font-size: 30px;
+           text-align: left;
+       }
+
+       #brand-para {
+           text-align: left;
+       }
+
+       .quick-mother-div {
+           display: flex;
+           flex-direction: column;
+           padding: 0px;
+           padding-left: 40px;
+           /* grid-template-columns: repeat(1, 410px); */
+       }
+
+       .quick-main {
+           grid-template-columns: repeat(1, 500px);
+           align-items: flex-start;
+       }
+
+       .quick-main img {
+           width: 50%;
+       }
+
+       .feature-main {
+           flex-direction: column;
+           padding: 0px;
+           padding-left: 40px;
+       }
+
+       .feature-main img {
+           width: 75%;
+           padding-left: 40px;
+       }
+
+       .feature-box {
+           padding: 0px;
+       }
+
+       .tenxp-btn {
+           top: 0px;
+           left: 40px;
+       }
+
+
+
+       .some-head {
+           padding: 0px;
+           padding-left: 30px;
+       }
+
+       .sponsor-head {
+           text-align: left;
+           padding-left: 40px;
+       }
+
+       .logos {
+           flex-direction: column;
+           padding-left: 40px;
+       }
+
+       .award-main {
+           flex-direction: column;
+           align-items: flex-start;
+           padding-left: 40px;
+       }
+
+       .footer {
+           margin: 0px;
+       }
+
+       .footer p {
+           text-align: left;
+           padding-top: 50px;
+           padding-bottom: 50px;
+       }
+
    }
